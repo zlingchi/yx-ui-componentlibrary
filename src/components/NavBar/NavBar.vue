@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav class="NavBar">
         <NavBarItem title="Home" />
         <NavBarItem title="About" />
         <NavBarDropDown title="Services" :items="services" />
@@ -39,14 +39,12 @@ export default {
 </script>
 
 <style>
-template {
-    background-color: skyblue;
-}
 
-nav {
+.NavBar {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: skyblue;
 }
 
 nav .menu-item {

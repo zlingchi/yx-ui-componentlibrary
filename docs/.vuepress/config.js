@@ -32,7 +32,7 @@ module.exports = {
             { text: 'Getting Started', link: '/guide' },
             { text: 'Components', link: '/components/' },
             // external link to git repo...again
-            { text: 'GitHub', link: '' }
+            { text: 'GitHub', link: 'https://github.com/zlingchi/yx-ui-componentlibrary' }
           ],
           sidebar: {
             '/components/': [
