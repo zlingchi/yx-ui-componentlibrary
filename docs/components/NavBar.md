@@ -4,12 +4,12 @@ Wow! This component is awesome.
 
 ## Example
 
-<Demo componentName="examples-NavBar-doc" />
+<Demo componentName="examples-navBar-doc" />
 
 ## Source Code
 
 <SourceCode>
-<<< @/src/components/NavBar/NavBar.vue
+<<< @/src/components/navBar/navBar.vue
 </SourceCode>
 
 ## slots

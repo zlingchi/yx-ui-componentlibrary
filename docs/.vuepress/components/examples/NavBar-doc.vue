@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import NavBar from '../../../../src/components/NavBar/NavBar'
+import YXNavBar from '../../../../src/components/navBar/navBar'
 
 export default {
   components: {
-    NavBar
+    YXNavBar
   }
 }
 </script>

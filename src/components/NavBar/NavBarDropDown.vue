@@ -18,7 +18,7 @@
 
 <script>
 export default {
-    name: 'navbardropdown',
+    name: 'YXNavBarDropDown',
     props: ['title', 'items'],
     data () {
         return {

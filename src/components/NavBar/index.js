@@ -1,5 +1,5 @@
-import NavBar from './NavBar'
-import NavBarItem from './NavBarItem'
-import NavBarDropDown from './NavBarDropDown'
+import YXNavBar from './navBar'
+import YXNavBarItem from './navBarItem'
+import YXNavBarDropDown from './navBarDropDown'
 
-export default { NavBar, NavBarItem, NavBarDropDown };
+export default { YXNavBar, YXNavBarItem, YXNavBarDropDown };

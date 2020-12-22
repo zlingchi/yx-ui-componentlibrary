@@ -1,21 +1,21 @@
 <template>
-    <nav class="NavBar">
-        <NavBarItem title="Home" />
-        <NavBarItem title="About" />
-        <NavBarDropDown title="Services" :items="services" />
-        <NavBarItem title="Contact" />
+    <nav class="yx-navBar">
+        <YXNavBarItem title="Home" />
+        <YXNavBarItem title="About" />
+        <YXNavBarDropDown title="Services" :items="services" />
+        <YXNavBarItem title="Contact" />
     </nav>
 </template>
 
 <script>
-import NavBarDropDown from './NavBarDropDown'
-import NavBarItem from './NavBarItem'
+import YXNavBarDropDown from './navBarDropDown'
+import YXNavBarItem from './navBarItem'
 
 export default {
-    name: 'navbar',
+    name: 'YXNavBar',
     components: {
-        NavBarDropDown,
-        NavBarItem
+        YXNavBarDropDown,
+        YXNavBarItem
     },
     data () {
         return {
@@ -40,14 +40,14 @@ export default {
 
 <style>
 
-.NavBar {
+.yx-navBar {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: skyblue;
 }
 
-nav .menu-item {
+.yx-navBar .menu-item {
     color: #fff;
     padding: 10px 20px;
     position: relative;
@@ -57,12 +57,12 @@ nav .menu-item {
     transition: 0.4s;
 }
 
-nav .menu-item.active, nav .menu-item:hover {
+.yx-navBar .menu-item.active, nav .menu-item:hover {
     color: rgb(59, 113, 136);
     border-bottom-color: rgb(59, 113, 136);
 }
 
-nav .menu-item a {
+.yx-navBar .menu-item a {
     color: inherit;
     text-decoration: none;
 }

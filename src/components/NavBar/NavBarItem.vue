@@ -8,7 +8,7 @@
 
 <script>
 export default {
-    name: 'navbaritem',
+    name: 'YXNavBarItem',
     props: ['title'],
 }
 </script>
