@@ -20,7 +20,7 @@
 export default {
     name: 'YXNavBarDropDown',
     props: ['title', 'items'],
-    data () {
+    data () {   
         return {
             isOpen: false
         }
