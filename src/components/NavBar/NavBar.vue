@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-12-21 17:04:13
+ * @LastEditTime: 2021-01-20 15:40:50
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \yx-ui-componentlibrary\src\components\navBar\navBar.vue
+-->
 <template>
     <nav class="yx-navBar">
         <YXNavBarItem title="Home" />
@@ -45,6 +53,9 @@ export default {
     align-items: center;
     justify-content: center;
     background-color: skyblue;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .yx-navBar .menu-item {
